@@ -1,0 +1,32 @@
+ALL: evalu_review
+.SUFFIXES:.o .C .cxx .cpp
+
+CC=g++ -g -m64 -D_LINUX_ 
+C++FLAGS=
+
+dms=$(SRC_HOME)/platform/evalu_review
+OBJECTDIR=$(dms)/obj
+
+INCDIR=-I./src -I$(HOME)/src/include
+LIBDIR=-L$(HOME)/lib 
+LIBS=-ldcisg
+
+OBJ_evalu_review = datetime.o statis_da.o statis_dgpms.o statis_dms.o statis_model.o \
+			statis_terminal.o es_log.o statis_yc.o statis_support.o statis_net.o statis_zlp.o statis_xsd.o statis_ztgj.o statis_yd.o es_score.o es_main.o \
+			statis_line.o statis_district.o
+
+VPATH = $(dms)/src:$(OBJECTDIR):$(dms)/agent:$(dms)
+
+.cpp.o:
+	$(CC) $(C++FLAGS) $(INCDIR) -c $< -o $(OBJECTDIR)/$(@F)
+	@echo "********" $< is builed ok. "********"
+	@echo ""
+evalu_review : $(OBJ_evalu_review)
+	cd $(OBJECTDIR);$(CC) $(C++FLAGS) -o $(dms)/bin/evalu_review $(OBJ_evalu_review) $(LIBDIR) $(LIBS)
+	@echo "********" $@ is link ok. "********"
+	@echo ""
+clean:
+	cd $(OBJECTDIR);rm -rf $(OBJECTDIR)/*.*
+make install:
+	cp $(dms)/bin/evalu_review $(D5000_HOME)/bin
+	

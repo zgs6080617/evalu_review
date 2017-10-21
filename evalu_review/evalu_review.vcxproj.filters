@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="datetime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="es_log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="es_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="es_score.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_da.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_dgpms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_dms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_net.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_support.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_terminal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_xsd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_yc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_yd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_zlp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_ztgj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_line.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_district.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="statis_EquipmentUpgrade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="datetime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="es_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="es_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="es_score.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_da.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_dgpms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_dms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_net.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_support.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_terminal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_xsd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_yc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_yd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_zlp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_ztgj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_district.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statis_EquipmentUpgrade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
